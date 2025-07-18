@@ -1,0 +1,5 @@
+﻿:: cmd_deployment.txt
+
+copy "C:\Projects\SampleStrategy\SampleStrategy\bin\Debug\net8.0-windows\SampleStrategy.dll"  "C:\Users\%username%\AppData\Roaming\ATAS\Strategies\SampleStrategy.dll"  /Y
+
+PAUSE
